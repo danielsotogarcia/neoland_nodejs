@@ -1,0 +1,44 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+img {
+  margin-top: -5px;
+  max-width: 100px;
+  padding-right: 1rem;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+}
+
+ul {
+  display: flex;
+  justify-content: flex-start;
+}
+li:hover {
+  background-color: #cc0000;
+}
+li {
+  margin: 0px 5px;
+  list-style: none;
+}
+a {
+  display: inline-block;
+  font-family: "robotoBold", Arial, helvetica;
+  font-size: 18px;
+  font-weight: 600;
+  width: 100%;
+  padding: 15px;
+  color: black;
+}
+a:link {
+  text-decoration-line: none;
+}
+.active {
+  background-color: #cc0000;
+}
+.active > a {
+  color: white;
+}
